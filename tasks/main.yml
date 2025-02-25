@@ -1,0 +1,6 @@
+---
+
+- name: Set rootpw
+  ansible.builtin.user:
+    name: "root"
+    password: "{{ rootpw }}"
